@@ -1,0 +1,40 @@
+# Creating a list
+fruits = ["apple", "banana", "cherry", "date"]
+
+# Accessing elements from the list
+print("First fruit in the list:", fruits[0])  # Accessing the first element
+print("Last fruit in the list:", fruits[-1])  # Accessing the last element
+
+# Adding elements to the list
+fruits.append("elderberry")  # Adding an element at the end
+fruits.insert(1, "blueberry")  # Inserting an element at index 1
+
+print("\nUpdated list after adding elements:")
+print(fruits)
+
+# Modifying elements in the list
+fruits[2] = "grape"  # Changing the third element
+
+print("\nList after modifying an element:")
+print(fruits)
+
+# Looping through the list
+print("\nLooping through the list:")
+for fruit in fruits:
+    print(fruit)
+
+# Removing elements from the list
+fruits.remove("banana")  # Removes the first occurrence of "banana"
+fruits.pop()  # Removes the last element
+
+print("\nList after removing elements:")
+print(fruits)
+
+# Finding the length of the list
+print("\nLength of the list:", len(fruits))
+
+# Checking if an item exists in the list
+if "apple" in fruits:
+    print("\n'Apple' is in the list.")
+else:
+    print("\n'Apple' is not in the list.")
